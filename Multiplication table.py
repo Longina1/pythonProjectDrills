@@ -16,6 +16,16 @@ print(len(number_as_str))
 
 
 
+for num in range(1, 11):
+    for i in range(1, 11):
+        multiplication = num * i
+        print(multiplication, end=' ')
+    print('\t\t')
+
+for i in range(1, 11):
+    for j in range(1, 11):
+        print(i * j, end=" ")
+    print("\t\t")
 
 
 
